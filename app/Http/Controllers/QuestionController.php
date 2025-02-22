@@ -11,6 +11,7 @@ class QuestionController extends Controller
     {
         if ($request->isMethod('post')) {
             // Handle POST for URL lookup
+
             $url = $request->input('url');  // Get URL from the POST JSON body
 
             if (!$url) {
