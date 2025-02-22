@@ -52,7 +52,7 @@ class ImportSitemap extends Command
       'Got-Questions-Video.htm',
       '-Survey',
       'content.html',
-      'book'
+      '/book/'
     ];
 
     $urls = [];
